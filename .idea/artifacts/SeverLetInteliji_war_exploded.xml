@@ -8,7 +8,6 @@
           <element id="module-output" name="SeverLetInteliji" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="org.glassfish.jersey.media:jersey-media-moxy:2.26-b09" />
           <element id="library" level="project" name="commons-codec-1.6" />
         </element>
       </element>
