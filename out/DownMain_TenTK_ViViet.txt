@@ -1,0 +1,18 @@
+GF domain2 4743
+	
+[server] 	http://KHOAND:1076/GLX
+[server] 	https://KHOAND:1079/GLX
+demo commit
+context /tenTk_ViViet
+http://localhost:4848/tenTk_ViViet/services/vi_viet/getNameViViet?maGiaoDich=magiaoDich2&user=user2&thoiGian=31122017&soTK=040704060027887&maNganHang=VIB&nguoiYeuCau=nguyen dinh khoa&trangThai=0&VMApp=0
+http://localhost:8080/tenTk_ViViet/services/vi_viet/getNameViViet?maGiaoDich=magiaoDich2&user=user2&thoiGian=31122017&soTK=040704060027887&maNganHang=VIB&nguoiYeuCau=nguyen%20dinh%20khoa&trangThai=0&VMApp=0
+http://192.168.100.200:1076/tenTk_ViViet/services/vi_viet/getNameViViet?maGiaoDich=magiaoDich2&user=user2&thoiGian=31122017&soTK=040704060027887&maNganHang=VIB&nguoiYeuCau=nguyen dinh khoa&trangThai=0&VMApp=0
+http://localhost:1076/tenTk_ViViet/services/vi_viet/getNameViViet?maGiaoDich=magiaoDich2&user=user2&thoiGian=31122017&soTK=040704060027887&maNganHang=VIB&nguoiYeuCau=nguyen dinh khoa&trangThai=0&VMApp=0
+http://localhost:1076/GLX/services/galaxy/getDanhSachVeCuaPhim?idRap=_GLX_1003&idPhim=mEQGfIs8BL&idKhungGio=241825&urlPhim=https%3A%2F%2Ftickets.galaxycine.vn%2FvisInternetTicketing%2FvisLtyTicketsLogin.aspx%3Fcinemacode%3D1003%26txtSessionId%3D241825%26visLang%3D1
+http://192.168.100.236:1076/GLX/services/galaxy/getDanhSachVeCuaPhim?idRap=_GLX_1003&idPhim=mEQGfIs8BL&idKhungGio=241825&urlPhim=https%3A%2F%2Ftickets.galaxycine.vn%2FvisInternetTicketing%2FvisLtyTicketsLogin.aspx%3Fcinemacode%3D1003%26txtSessionId%3D241825%26visLang%3D1
+
+//so DƯ
+http://192.168.100.200:1076/tenTk_ViViet/services/vi_viet/getSoDuViViet?maGiaoDich=magiaoDich2&user=user2&thoiGian=31122017&soTK=040704060027887&maNganHang=VIB&nguoiYeuCau=nguyen dinh khoa&trangThai=0&VMApp=0
+
+//nạp dthoai
+http://192.168.100.200:1076/tenTk_ViViet/services/vi_viet/getNapDTViViet?maGiaoDich=magiaoDich2&thoiGian=31122017&nguoiYeuCau=nguyen dinh khoa&trangThai=0&sdt=01236455117&maNhaMang=0&soTien=100000&VMApp=0
